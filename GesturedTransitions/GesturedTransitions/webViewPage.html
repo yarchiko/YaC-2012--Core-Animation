@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+        <style type="text/css">
+            body {
+                background-repeat: repeat-x;
+                background-image: url(webViewBg.png);
+            }
+
+            .label {
+                padding: 5px;
+                margin: 5px;
+                text-shadow: 0px 1px 1px #fdfffb;
+                font-weight: bold;
+                font-size: 14px;
+                font-family: Monaco, monospace, Courier, "Courier New";
+                color: black;
+            }
+            
+            #logo {
+                width: 91px;
+                height: 37px;
+                background-image: url('webViewIcon.png');
+            }
+            
+            @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+                #logo {
+                    background-image: url('webViewIcon@2x.png');
+                    background-size: 91px 37px;
+                }
+            }
+            
+            #map {
+                width: 207px;
+                height: 196px;
+                background-image: url('webViewMap.png');
+            }
+            
+            @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+                #map {
+                    background-image: url('webViewMap@2x.png');
+                    background-size: 207px 196px;
+                }
+            }
+
+        </style>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title></title>
+	</head>
+	<body>
+		<center>
+            <p></p>
+			<div id="logo"></div>
+			<div class="label">Добро пожаловать на <font color="red">Y</font>aC!</div>
+            <p></p>
+            <div class="label">Тапните серую рамку для кромсания</div>
+            <div class="label">Проведите снизу вверх для сгиба</div>
+            <p></p>
+            <div id="map"></div>
+		</center>
+		
+	</body>
+</html>

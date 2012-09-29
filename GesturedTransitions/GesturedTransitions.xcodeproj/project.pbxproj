@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E93B852916061469005F3773 /* YMCTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E93B852816061469005F3773 /* YMCTransitionAnimator.m */; };
+		E941441216141B34005CABFD /* webViewMap.png in Resources */ = {isa = PBXBuildFile; fileRef = E941441016141B34005CABFD /* webViewMap.png */; };
+		E941441316141B34005CABFD /* webViewMap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E941441116141B34005CABFD /* webViewMap@2x.png */; };
+		E953785E160EE9E5009EED36 /* Shredder.png in Resources */ = {isa = PBXBuildFile; fileRef = E953785A160EE9E5009EED36 /* Shredder.png */; };
+		E953785F160EE9E5009EED36 /* Shredder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E953785B160EE9E5009EED36 /* Shredder@2x.png */; };
+		E9537860160EE9E5009EED36 /* ShredderScissor.png in Resources */ = {isa = PBXBuildFile; fileRef = E953785C160EE9E5009EED36 /* ShredderScissor.png */; };
+		E9537861160EE9E5009EED36 /* ShredderScissor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E953785D160EE9E5009EED36 /* ShredderScissor@2x.png */; };
+		E95C8994160226430050E593 /* YMCShredderMachineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E95C8993160226430050E593 /* YMCShredderMachineLayer.m */; };
+		E95C8996160227860050E593 /* shredderCut1.png in Resources */ = {isa = PBXBuildFile; fileRef = E95C8995160227860050E593 /* shredderCut1.png */; };
+		E95C89A4160235F50050E593 /* shredderCut2.png in Resources */ = {isa = PBXBuildFile; fileRef = E95C89A2160235F50050E593 /* shredderCut2.png */; };
+		E95C89A5160235F50050E593 /* shredderCut3.png in Resources */ = {isa = PBXBuildFile; fileRef = E95C89A3160235F50050E593 /* shredderCut3.png */; };
+		E96B5F64160F7E2F00C1923D /* webViewBg.png in Resources */ = {isa = PBXBuildFile; fileRef = E96B5F61160F7E2F00C1923D /* webViewBg.png */; };
+		E96B5F66160F7E2F00C1923D /* webViewPage.html in Resources */ = {isa = PBXBuildFile; fileRef = E96B5F63160F7E2F00C1923D /* webViewPage.html */; };
+		E96B5F87160F7EEF00C1923D /* webViewIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E96B5F85160F7EEF00C1923D /* webViewIcon.png */; };
+		E96B5F88160F7EEF00C1923D /* webViewIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E96B5F86160F7EEF00C1923D /* webViewIcon@2x.png */; };
+		E9AD31801600905F00FA1542 /* YMCShredderGesturedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD317F1600905F00FA1542 /* YMCShredderGesturedTransition.m */; };
+		E9AD31D71600EAE500FA1542 /* UIView+YMCShredderingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD31D61600EAE500FA1542 /* UIView+YMCShredderingAnimation.m */; };
+		E9C9CD68156CBBD9002AFE04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C9CD67156CBBD9002AFE04 /* UIKit.framework */; };
+		E9C9CD6A156CBBD9002AFE04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C9CD69156CBBD9002AFE04 /* Foundation.framework */; };
+		E9C9CD6C156CBBD9002AFE04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C9CD6B156CBBD9002AFE04 /* CoreGraphics.framework */; };
+		E9C9CD72156CBBD9002AFE04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9C9CD70156CBBD9002AFE04 /* InfoPlist.strings */; };
+		E9C9CD74156CBBD9002AFE04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9CD73156CBBD9002AFE04 /* main.m */; };
+		E9C9CD78156CBBD9002AFE04 /* YMCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9CD77156CBBD9002AFE04 /* YMCAppDelegate.m */; };
+		E9C9CD7B156CBBDA002AFE04 /* YMCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9CD7A156CBBDA002AFE04 /* YMCViewController.m */; };
+		E9C9CD7E156CBBDA002AFE04 /* YMCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C9CD7C156CBBDA002AFE04 /* YMCViewController.xib */; };
+		E9C9CD89156CBBF0002AFE04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C9CD88156CBBF0002AFE04 /* QuartzCore.framework */; };
+		E9C9CD8D156CBD16002AFE04 /* MPViewRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9CD8C156CBD0B002AFE04 /* MPViewRendering.m */; };
+		E9C9CD91156CBD5D002AFE04 /* YMCGesturedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9CD90156CBD5D002AFE04 /* YMCGesturedTransition.m */; };
+		E9C9CD94156CBF76002AFE04 /* YMCFoldGesturedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9CD93156CBF76002AFE04 /* YMCFoldGesturedTransition.m */; };
+		E9C9CD96156CC020002AFE04 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C9CD95156CC020002AFE04 /* MapKit.framework */; };
+		E9C9CD99156D6E74002AFE04 /* YMCFoldPartLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C9CD98156D6E73002AFE04 /* YMCFoldPartLayer.m */; };
+		E9F5684E1605BECC00D7A0FC /* YMCAnimationEventsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F5684D1605BE2A00D7A0FC /* YMCAnimationEventsHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E93B852716061469005F3773 /* YMCTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCTransitionAnimator.h; sourceTree = "<group>"; };
+		E93B852816061469005F3773 /* YMCTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCTransitionAnimator.m; sourceTree = "<group>"; };
+		E941441016141B34005CABFD /* webViewMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webViewMap.png; sourceTree = "<group>"; };
+		E941441116141B34005CABFD /* webViewMap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webViewMap@2x.png"; sourceTree = "<group>"; };
+		E943B5131576075800368CAC /* YMCGesturedTransitionSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCGesturedTransitionSubclass.h; sourceTree = "<group>"; };
+		E953785A160EE9E5009EED36 /* Shredder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shredder.png; sourceTree = "<group>"; };
+		E953785B160EE9E5009EED36 /* Shredder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shredder@2x.png"; sourceTree = "<group>"; };
+		E953785C160EE9E5009EED36 /* ShredderScissor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShredderScissor.png; sourceTree = "<group>"; };
+		E953785D160EE9E5009EED36 /* ShredderScissor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShredderScissor@2x.png"; sourceTree = "<group>"; };
+		E95C8992160226430050E593 /* YMCShredderMachineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCShredderMachineLayer.h; sourceTree = "<group>"; };
+		E95C8993160226430050E593 /* YMCShredderMachineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCShredderMachineLayer.m; sourceTree = "<group>"; };
+		E95C8995160227860050E593 /* shredderCut1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shredderCut1.png; sourceTree = "<group>"; };
+		E95C89A2160235F50050E593 /* shredderCut2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shredderCut2.png; sourceTree = "<group>"; };
+		E95C89A3160235F50050E593 /* shredderCut3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shredderCut3.png; sourceTree = "<group>"; };
+		E96B5F61160F7E2F00C1923D /* webViewBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webViewBg.png; sourceTree = "<group>"; };
+		E96B5F63160F7E2F00C1923D /* webViewPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webViewPage.html; sourceTree = "<group>"; };
+		E96B5F85160F7EEF00C1923D /* webViewIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webViewIcon.png; sourceTree = "<group>"; };
+		E96B5F86160F7EEF00C1923D /* webViewIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "webViewIcon@2x.png"; sourceTree = "<group>"; };
+		E9AD317E1600905F00FA1542 /* YMCShredderGesturedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCShredderGesturedTransition.h; sourceTree = "<group>"; };
+		E9AD317F1600905F00FA1542 /* YMCShredderGesturedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCShredderGesturedTransition.m; sourceTree = "<group>"; };
+		E9AD31D51600EAE500FA1542 /* UIView+YMCShredderingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YMCShredderingAnimation.h"; sourceTree = "<group>"; };
+		E9AD31D61600EAE500FA1542 /* UIView+YMCShredderingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YMCShredderingAnimation.m"; sourceTree = "<group>"; };
+		E9C9CD63156CBBD9002AFE04 /* GesturedTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturedTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C9CD67156CBBD9002AFE04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9C9CD69156CBBD9002AFE04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9C9CD6B156CBBD9002AFE04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9C9CD6F156CBBD9002AFE04 /* GesturedTransitions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GesturedTransitions-Info.plist"; sourceTree = "<group>"; };
+		E9C9CD71156CBBD9002AFE04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9C9CD73156CBBD9002AFE04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9C9CD75156CBBD9002AFE04 /* GesturedTransitions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GesturedTransitions-Prefix.pch"; sourceTree = "<group>"; };
+		E9C9CD76156CBBD9002AFE04 /* YMCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCAppDelegate.h; sourceTree = "<group>"; };
+		E9C9CD77156CBBD9002AFE04 /* YMCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCAppDelegate.m; sourceTree = "<group>"; };
+		E9C9CD79156CBBDA002AFE04 /* YMCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCViewController.h; sourceTree = "<group>"; };
+		E9C9CD7A156CBBDA002AFE04 /* YMCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCViewController.m; sourceTree = "<group>"; };
+		E9C9CD7D156CBBDA002AFE04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YMCViewController.xib; sourceTree = "<group>"; };
+		E9C9CD88156CBBF0002AFE04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E9C9CD8B156CBD0B002AFE04 /* MPViewRendering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewRendering.h; sourceTree = "<group>"; };
+		E9C9CD8C156CBD0B002AFE04 /* MPViewRendering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewRendering.m; sourceTree = "<group>"; };
+		E9C9CD8F156CBD5D002AFE04 /* YMCGesturedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCGesturedTransition.h; sourceTree = "<group>"; };
+		E9C9CD90156CBD5D002AFE04 /* YMCGesturedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCGesturedTransition.m; sourceTree = "<group>"; };
+		E9C9CD92156CBF76002AFE04 /* YMCFoldGesturedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCFoldGesturedTransition.h; sourceTree = "<group>"; };
+		E9C9CD93156CBF76002AFE04 /* YMCFoldGesturedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCFoldGesturedTransition.m; sourceTree = "<group>"; };
+		E9C9CD95156CC020002AFE04 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E9C9CD97156D6E73002AFE04 /* YMCFoldPartLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCFoldPartLayer.h; sourceTree = "<group>"; };
+		E9C9CD98156D6E73002AFE04 /* YMCFoldPartLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCFoldPartLayer.m; sourceTree = "<group>"; };
+		E9F5684C1605BE2A00D7A0FC /* YMCAnimationEventsHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCAnimationEventsHandler.h; sourceTree = "<group>"; };
+		E9F5684D1605BE2A00D7A0FC /* YMCAnimationEventsHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCAnimationEventsHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9C9CD60156CBBD9002AFE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C9CD96156CC020002AFE04 /* MapKit.framework in Frameworks */,
+				E9C9CD89156CBBF0002AFE04 /* QuartzCore.framework in Frameworks */,
+				E9C9CD68156CBBD9002AFE04 /* UIKit.framework in Frameworks */,
+				E9C9CD6A156CBBD9002AFE04 /* Foundation.framework in Frameworks */,
+				E9C9CD6C156CBBD9002AFE04 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E93D0DE316104463000070EB /* WebView Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E96B5F61160F7E2F00C1923D /* webViewBg.png */,
+				E96B5F63160F7E2F00C1923D /* webViewPage.html */,
+				E96B5F85160F7EEF00C1923D /* webViewIcon.png */,
+				E96B5F86160F7EEF00C1923D /* webViewIcon@2x.png */,
+				E941441016141B34005CABFD /* webViewMap.png */,
+				E941441116141B34005CABFD /* webViewMap@2x.png */,
+			);
+			name = "WebView Resources";
+			sourceTree = "<group>";
+		};
+		E9AD317D16008E9300FA1542 /* Shredder */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD317E1600905F00FA1542 /* YMCShredderGesturedTransition.h */,
+				E9AD317F1600905F00FA1542 /* YMCShredderGesturedTransition.m */,
+				E95C8992160226430050E593 /* YMCShredderMachineLayer.h */,
+				E95C8993160226430050E593 /* YMCShredderMachineLayer.m */,
+				E95C8995160227860050E593 /* shredderCut1.png */,
+				E95C89A2160235F50050E593 /* shredderCut2.png */,
+				E95C89A3160235F50050E593 /* shredderCut3.png */,
+				E953785A160EE9E5009EED36 /* Shredder.png */,
+				E953785B160EE9E5009EED36 /* Shredder@2x.png */,
+				E953785C160EE9E5009EED36 /* ShredderScissor.png */,
+				E953785D160EE9E5009EED36 /* ShredderScissor@2x.png */,
+				E9AD31D51600EAE500FA1542 /* UIView+YMCShredderingAnimation.h */,
+				E9AD31D61600EAE500FA1542 /* UIView+YMCShredderingAnimation.m */,
+			);
+			name = Shredder;
+			sourceTree = "<group>";
+		};
+		E9C9CD58156CBBD9002AFE04 = {
+			isa = PBXGroup;
+			children = (
+				E9C9CD6D156CBBD9002AFE04 /* GesturedTransitions */,
+				E9C9CD66156CBBD9002AFE04 /* Frameworks */,
+				E9C9CD64156CBBD9002AFE04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9C9CD64156CBBD9002AFE04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9CD63156CBBD9002AFE04 /* GesturedTransitions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9C9CD66156CBBD9002AFE04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9CD95156CC020002AFE04 /* MapKit.framework */,
+				E9C9CD88156CBBF0002AFE04 /* QuartzCore.framework */,
+				E9C9CD67156CBBD9002AFE04 /* UIKit.framework */,
+				E9C9CD69156CBBD9002AFE04 /* Foundation.framework */,
+				E9C9CD6B156CBBD9002AFE04 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9C9CD6D156CBBD9002AFE04 /* GesturedTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9CD76156CBBD9002AFE04 /* YMCAppDelegate.h */,
+				E9C9CD77156CBBD9002AFE04 /* YMCAppDelegate.m */,
+				E9F5684116037A9900D7A0FC /* Gestured Transition */,
+				E9AD317D16008E9300FA1542 /* Shredder */,
+				E9C9CD8E156CBD37002AFE04 /* Fold */,
+				E9C9CD79156CBBDA002AFE04 /* YMCViewController.h */,
+				E9C9CD7A156CBBDA002AFE04 /* YMCViewController.m */,
+				E9C9CD7C156CBBDA002AFE04 /* YMCViewController.xib */,
+				E93D0DE316104463000070EB /* WebView Resources */,
+				E9C9CD6E156CBBD9002AFE04 /* Supporting Files */,
+			);
+			path = GesturedTransitions;
+			sourceTree = "<group>";
+		};
+		E9C9CD6E156CBBD9002AFE04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9CD6F156CBBD9002AFE04 /* GesturedTransitions-Info.plist */,
+				E9C9CD70156CBBD9002AFE04 /* InfoPlist.strings */,
+				E9C9CD73156CBBD9002AFE04 /* main.m */,
+				E9C9CD75156CBBD9002AFE04 /* GesturedTransitions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9C9CD8E156CBD37002AFE04 /* Fold */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9CD92156CBF76002AFE04 /* YMCFoldGesturedTransition.h */,
+				E9C9CD93156CBF76002AFE04 /* YMCFoldGesturedTransition.m */,
+				E9C9CD97156D6E73002AFE04 /* YMCFoldPartLayer.h */,
+				E9C9CD98156D6E73002AFE04 /* YMCFoldPartLayer.m */,
+			);
+			name = Fold;
+			sourceTree = "<group>";
+		};
+		E9F5684116037A9900D7A0FC /* Gestured Transition */ = {
+			isa = PBXGroup;
+			children = (
+				E9F5684C1605BE2A00D7A0FC /* YMCAnimationEventsHandler.h */,
+				E9F5684D1605BE2A00D7A0FC /* YMCAnimationEventsHandler.m */,
+				E9C9CD8B156CBD0B002AFE04 /* MPViewRendering.h */,
+				E9C9CD8C156CBD0B002AFE04 /* MPViewRendering.m */,
+				E943B5131576075800368CAC /* YMCGesturedTransitionSubclass.h */,
+				E9C9CD8F156CBD5D002AFE04 /* YMCGesturedTransition.h */,
+				E9C9CD90156CBD5D002AFE04 /* YMCGesturedTransition.m */,
+				E93B852716061469005F3773 /* YMCTransitionAnimator.h */,
+				E93B852816061469005F3773 /* YMCTransitionAnimator.m */,
+			);
+			name = "Gestured Transition";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9C9CD62156CBBD9002AFE04 /* GesturedTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C9CD81156CBBDA002AFE04 /* Build configuration list for PBXNativeTarget "GesturedTransitions" */;
+			buildPhases = (
+				E9C9CD5F156CBBD9002AFE04 /* Sources */,
+				E9C9CD60156CBBD9002AFE04 /* Frameworks */,
+				E9C9CD61156CBBD9002AFE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GesturedTransitions;
+			productName = GesturedTransitions;
+			productReference = E9C9CD63156CBBD9002AFE04 /* GesturedTransitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9C9CD5A156CBBD9002AFE04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YMC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Yandex Mobile Camp";
+			};
+			buildConfigurationList = E9C9CD5D156CBBD9002AFE04 /* Build configuration list for PBXProject "GesturedTransitions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9C9CD58156CBBD9002AFE04;
+			productRefGroup = E9C9CD64156CBBD9002AFE04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9C9CD62156CBBD9002AFE04 /* GesturedTransitions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9C9CD61156CBBD9002AFE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C9CD72156CBBD9002AFE04 /* InfoPlist.strings in Resources */,
+				E9C9CD7E156CBBDA002AFE04 /* YMCViewController.xib in Resources */,
+				E95C8996160227860050E593 /* shredderCut1.png in Resources */,
+				E95C89A4160235F50050E593 /* shredderCut2.png in Resources */,
+				E95C89A5160235F50050E593 /* shredderCut3.png in Resources */,
+				E953785E160EE9E5009EED36 /* Shredder.png in Resources */,
+				E953785F160EE9E5009EED36 /* Shredder@2x.png in Resources */,
+				E9537860160EE9E5009EED36 /* ShredderScissor.png in Resources */,
+				E9537861160EE9E5009EED36 /* ShredderScissor@2x.png in Resources */,
+				E96B5F64160F7E2F00C1923D /* webViewBg.png in Resources */,
+				E96B5F66160F7E2F00C1923D /* webViewPage.html in Resources */,
+				E96B5F87160F7EEF00C1923D /* webViewIcon.png in Resources */,
+				E96B5F88160F7EEF00C1923D /* webViewIcon@2x.png in Resources */,
+				E941441216141B34005CABFD /* webViewMap.png in Resources */,
+				E941441316141B34005CABFD /* webViewMap@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9C9CD5F156CBBD9002AFE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C9CD74156CBBD9002AFE04 /* main.m in Sources */,
+				E9C9CD78156CBBD9002AFE04 /* YMCAppDelegate.m in Sources */,
+				E9C9CD7B156CBBDA002AFE04 /* YMCViewController.m in Sources */,
+				E9C9CD8D156CBD16002AFE04 /* MPViewRendering.m in Sources */,
+				E9C9CD91156CBD5D002AFE04 /* YMCGesturedTransition.m in Sources */,
+				E9C9CD94156CBF76002AFE04 /* YMCFoldGesturedTransition.m in Sources */,
+				E9C9CD99156D6E74002AFE04 /* YMCFoldPartLayer.m in Sources */,
+				E9AD31801600905F00FA1542 /* YMCShredderGesturedTransition.m in Sources */,
+				E9AD31D71600EAE500FA1542 /* UIView+YMCShredderingAnimation.m in Sources */,
+				E95C8994160226430050E593 /* YMCShredderMachineLayer.m in Sources */,
+				E9F5684E1605BECC00D7A0FC /* YMCAnimationEventsHandler.m in Sources */,
+				E93B852916061469005F3773 /* YMCTransitionAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9C9CD70156CBBD9002AFE04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C9CD71156CBBD9002AFE04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9C9CD7C156CBBDA002AFE04 /* YMCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C9CD7D156CBBDA002AFE04 /* en */,
+			);
+			name = YMCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9C9CD7F156CBBDA002AFE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9C9CD80156CBBDA002AFE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9C9CD82156CBBDA002AFE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GesturedTransitions/GesturedTransitions-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "GesturedTransitions/GesturedTransitions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = GesturedTransitions;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9C9CD83156CBBDA002AFE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GesturedTransitions/GesturedTransitions-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "GesturedTransitions/GesturedTransitions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = GesturedTransitions;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9C9CD5D156CBBD9002AFE04 /* Build configuration list for PBXProject "GesturedTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C9CD7F156CBBDA002AFE04 /* Debug */,
+				E9C9CD80156CBBDA002AFE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C9CD81156CBBDA002AFE04 /* Build configuration list for PBXNativeTarget "GesturedTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C9CD82156CBBDA002AFE04 /* Debug */,
+				E9C9CD83156CBBDA002AFE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9C9CD5A156CBBD9002AFE04 /* Project object */;
+}
