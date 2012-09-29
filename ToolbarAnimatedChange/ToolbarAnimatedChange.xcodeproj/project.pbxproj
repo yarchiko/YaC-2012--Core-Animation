@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E93DD76515FE046500AF0D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93DD76415FE046500AF0D37 /* UIKit.framework */; };
+		E93DD76715FE046500AF0D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93DD76615FE046500AF0D37 /* Foundation.framework */; };
+		E93DD76915FE046500AF0D37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93DD76815FE046500AF0D37 /* CoreGraphics.framework */; };
+		E93DD76F15FE046500AF0D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E93DD76D15FE046500AF0D37 /* InfoPlist.strings */; };
+		E93DD77115FE046500AF0D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DD77015FE046500AF0D37 /* main.m */; };
+		E93DD77515FE046600AF0D37 /* YMCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DD77415FE046600AF0D37 /* YMCAppDelegate.m */; };
+		E93DD77815FE046600AF0D37 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93DD77615FE046600AF0D37 /* MainStoryboard.storyboard */; };
+		E93DD77B15FE046600AF0D37 /* YMCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DD77A15FE046600AF0D37 /* YMCMasterViewController.m */; };
+		E93DD78615FE073700AF0D37 /* UIToolbar+YMCToolbarAnimatedUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DD78515FE073700AF0D37 /* UIToolbar+YMCToolbarAnimatedUpdate.m */; };
+		E93DD78A15FE07E500AF0D37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93DD78915FE07E500AF0D37 /* QuartzCore.framework */; };
+		E93DD78B15FE085700AF0D37 /* MPViewRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = E93DD78815FE07A200AF0D37 /* MPViewRendering.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E93DD76015FE046500AF0D37 /* ToolbarAnimatedChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolbarAnimatedChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93DD76415FE046500AF0D37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E93DD76615FE046500AF0D37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E93DD76815FE046500AF0D37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E93DD76C15FE046500AF0D37 /* ToolbarAnimatedChange-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToolbarAnimatedChange-Info.plist"; sourceTree = "<group>"; };
+		E93DD76E15FE046500AF0D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E93DD77015FE046500AF0D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E93DD77215FE046500AF0D37 /* ToolbarAnimatedChange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToolbarAnimatedChange-Prefix.pch"; sourceTree = "<group>"; };
+		E93DD77315FE046600AF0D37 /* YMCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCAppDelegate.h; sourceTree = "<group>"; };
+		E93DD77415FE046600AF0D37 /* YMCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCAppDelegate.m; sourceTree = "<group>"; };
+		E93DD77715FE046600AF0D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E93DD77915FE046600AF0D37 /* YMCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCMasterViewController.h; sourceTree = "<group>"; };
+		E93DD77A15FE046600AF0D37 /* YMCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCMasterViewController.m; sourceTree = "<group>"; };
+		E93DD78415FE073700AF0D37 /* UIToolbar+YMCToolbarAnimatedUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+YMCToolbarAnimatedUpdate.h"; sourceTree = "<group>"; };
+		E93DD78515FE073700AF0D37 /* UIToolbar+YMCToolbarAnimatedUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+YMCToolbarAnimatedUpdate.m"; sourceTree = "<group>"; };
+		E93DD78715FE07A200AF0D37 /* MPViewRendering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewRendering.h; sourceTree = "<group>"; };
+		E93DD78815FE07A200AF0D37 /* MPViewRendering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewRendering.m; sourceTree = "<group>"; };
+		E93DD78915FE07E500AF0D37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E93DD75D15FE046500AF0D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93DD78A15FE07E500AF0D37 /* QuartzCore.framework in Frameworks */,
+				E93DD76515FE046500AF0D37 /* UIKit.framework in Frameworks */,
+				E93DD76715FE046500AF0D37 /* Foundation.framework in Frameworks */,
+				E93DD76915FE046500AF0D37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E93DD75515FE046500AF0D37 = {
+			isa = PBXGroup;
+			children = (
+				E93DD76A15FE046500AF0D37 /* ToolbarAnimatedChange */,
+				E93DD76315FE046500AF0D37 /* Frameworks */,
+				E93DD76115FE046500AF0D37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E93DD76115FE046500AF0D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93DD76015FE046500AF0D37 /* ToolbarAnimatedChange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E93DD76315FE046500AF0D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E93DD78915FE07E500AF0D37 /* QuartzCore.framework */,
+				E93DD76415FE046500AF0D37 /* UIKit.framework */,
+				E93DD76615FE046500AF0D37 /* Foundation.framework */,
+				E93DD76815FE046500AF0D37 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E93DD76A15FE046500AF0D37 /* ToolbarAnimatedChange */ = {
+			isa = PBXGroup;
+			children = (
+				E93DD77315FE046600AF0D37 /* YMCAppDelegate.h */,
+				E93DD77415FE046600AF0D37 /* YMCAppDelegate.m */,
+				E93DD77615FE046600AF0D37 /* MainStoryboard.storyboard */,
+				E93DD77915FE046600AF0D37 /* YMCMasterViewController.h */,
+				E93DD77A15FE046600AF0D37 /* YMCMasterViewController.m */,
+				E93DD78415FE073700AF0D37 /* UIToolbar+YMCToolbarAnimatedUpdate.h */,
+				E93DD78515FE073700AF0D37 /* UIToolbar+YMCToolbarAnimatedUpdate.m */,
+				E93DD78715FE07A200AF0D37 /* MPViewRendering.h */,
+				E93DD78815FE07A200AF0D37 /* MPViewRendering.m */,
+				E93DD76B15FE046500AF0D37 /* Supporting Files */,
+			);
+			path = ToolbarAnimatedChange;
+			sourceTree = "<group>";
+		};
+		E93DD76B15FE046500AF0D37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E93DD76C15FE046500AF0D37 /* ToolbarAnimatedChange-Info.plist */,
+				E93DD76D15FE046500AF0D37 /* InfoPlist.strings */,
+				E93DD77015FE046500AF0D37 /* main.m */,
+				E93DD77215FE046500AF0D37 /* ToolbarAnimatedChange-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E93DD75F15FE046500AF0D37 /* ToolbarAnimatedChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93DD78115FE046600AF0D37 /* Build configuration list for PBXNativeTarget "ToolbarAnimatedChange" */;
+			buildPhases = (
+				E93DD75C15FE046500AF0D37 /* Sources */,
+				E93DD75D15FE046500AF0D37 /* Frameworks */,
+				E93DD75E15FE046500AF0D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToolbarAnimatedChange;
+			productName = ToolbarAnimatedChange;
+			productReference = E93DD76015FE046500AF0D37 /* ToolbarAnimatedChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E93DD75715FE046500AF0D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YMC;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Yandex;
+			};
+			buildConfigurationList = E93DD75A15FE046500AF0D37 /* Build configuration list for PBXProject "ToolbarAnimatedChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E93DD75515FE046500AF0D37;
+			productRefGroup = E93DD76115FE046500AF0D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93DD75F15FE046500AF0D37 /* ToolbarAnimatedChange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E93DD75E15FE046500AF0D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93DD76F15FE046500AF0D37 /* InfoPlist.strings in Resources */,
+				E93DD77815FE046600AF0D37 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E93DD75C15FE046500AF0D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93DD77115FE046500AF0D37 /* main.m in Sources */,
+				E93DD77515FE046600AF0D37 /* YMCAppDelegate.m in Sources */,
+				E93DD77B15FE046600AF0D37 /* YMCMasterViewController.m in Sources */,
+				E93DD78615FE073700AF0D37 /* UIToolbar+YMCToolbarAnimatedUpdate.m in Sources */,
+				E93DD78B15FE085700AF0D37 /* MPViewRendering.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E93DD76D15FE046500AF0D37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93DD76E15FE046500AF0D37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E93DD77615FE046600AF0D37 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93DD77715FE046600AF0D37 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E93DD77F15FE046600AF0D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E93DD78015FE046600AF0D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E93DD78215FE046600AF0D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToolbarAnimatedChange/ToolbarAnimatedChange-Prefix.pch";
+				INFOPLIST_FILE = "ToolbarAnimatedChange/ToolbarAnimatedChange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E93DD78315FE046600AF0D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToolbarAnimatedChange/ToolbarAnimatedChange-Prefix.pch";
+				INFOPLIST_FILE = "ToolbarAnimatedChange/ToolbarAnimatedChange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E93DD75A15FE046500AF0D37 /* Build configuration list for PBXProject "ToolbarAnimatedChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93DD77F15FE046600AF0D37 /* Debug */,
+				E93DD78015FE046600AF0D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93DD78115FE046600AF0D37 /* Build configuration list for PBXNativeTarget "ToolbarAnimatedChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93DD78215FE046600AF0D37 /* Debug */,
+				E93DD78315FE046600AF0D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E93DD75715FE046500AF0D37 /* Project object */;
+}
