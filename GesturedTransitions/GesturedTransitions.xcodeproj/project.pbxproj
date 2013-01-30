@@ -14,6 +14,7 @@
 		E953785F160EE9E5009EED36 /* Shredder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E953785B160EE9E5009EED36 /* Shredder@2x.png */; };
 		E9537860160EE9E5009EED36 /* ShredderScissor.png in Resources */ = {isa = PBXBuildFile; fileRef = E953785C160EE9E5009EED36 /* ShredderScissor.png */; };
 		E9537861160EE9E5009EED36 /* ShredderScissor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E953785D160EE9E5009EED36 /* ShredderScissor@2x.png */; };
+		E95560BF16B8F07000A8DE08 /* YMCCompressedSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E95560BE16B8F07000A8DE08 /* YMCCompressedSheet.m */; };
 		E95C8994160226430050E593 /* YMCShredderMachineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E95C8993160226430050E593 /* YMCShredderMachineLayer.m */; };
 		E95C8996160227860050E593 /* shredderCut1.png in Resources */ = {isa = PBXBuildFile; fileRef = E95C8995160227860050E593 /* shredderCut1.png */; };
 		E95C89A4160235F50050E593 /* shredderCut2.png in Resources */ = {isa = PBXBuildFile; fileRef = E95C89A2160235F50050E593 /* shredderCut2.png */; };
@@ -51,6 +52,8 @@
 		E953785B160EE9E5009EED36 /* Shredder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shredder@2x.png"; sourceTree = "<group>"; };
 		E953785C160EE9E5009EED36 /* ShredderScissor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShredderScissor.png; sourceTree = "<group>"; };
 		E953785D160EE9E5009EED36 /* ShredderScissor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ShredderScissor@2x.png"; sourceTree = "<group>"; };
+		E95560BD16B8F07000A8DE08 /* YMCCompressedSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCCompressedSheet.h; sourceTree = "<group>"; };
+		E95560BE16B8F07000A8DE08 /* YMCCompressedSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCCompressedSheet.m; sourceTree = "<group>"; };
 		E95C8992160226430050E593 /* YMCShredderMachineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMCShredderMachineLayer.h; sourceTree = "<group>"; };
 		E95C8993160226430050E593 /* YMCShredderMachineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMCShredderMachineLayer.m; sourceTree = "<group>"; };
 		E95C8995160227860050E593 /* shredderCut1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shredderCut1.png; sourceTree = "<group>"; };
@@ -120,6 +123,15 @@
 			name = "WebView Resources";
 			sourceTree = "<group>";
 		};
+		E95560BC16B8EFF100A8DE08 /* CompressedSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E95560BD16B8F07000A8DE08 /* YMCCompressedSheet.h */,
+				E95560BE16B8F07000A8DE08 /* YMCCompressedSheet.m */,
+			);
+			name = CompressedSheet;
+			sourceTree = "<group>";
+		};
 		E9AD317D16008E9300FA1542 /* Shredder */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +189,7 @@
 				E9F5684116037A9900D7A0FC /* Gestured Transition */,
 				E9AD317D16008E9300FA1542 /* Shredder */,
 				E9C9CD8E156CBD37002AFE04 /* Fold */,
+				E95560BC16B8EFF100A8DE08 /* CompressedSheet */,
 				E9C9CD79156CBBDA002AFE04 /* YMCViewController.h */,
 				E9C9CD7A156CBBDA002AFE04 /* YMCViewController.m */,
 				E9C9CD7C156CBBDA002AFE04 /* YMCViewController.xib */,
@@ -313,6 +326,7 @@
 				E95C8994160226430050E593 /* YMCShredderMachineLayer.m in Sources */,
 				E9F5684E1605BECC00D7A0FC /* YMCAnimationEventsHandler.m in Sources */,
 				E93B852916061469005F3773 /* YMCTransitionAnimator.m in Sources */,
+				E95560BF16B8F07000A8DE08 /* YMCCompressedSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
